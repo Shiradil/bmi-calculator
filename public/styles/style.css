@@ -1,0 +1,18 @@
+#result {
+    margin-top: 20px; 
+}
+
+.bmi-result {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa; 
+}
+
+.bmi-result h3 {
+    margin-bottom: 10px;
+}
+
+.bmi-result p {
+    margin-bottom: 0;
+}

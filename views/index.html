@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Include Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="/styles/style.css">
   <title>BMI Calculator</title>
 </head>
 <body>
   <nav class="navbar navbar-dark bg-dark">
-    <span class="navbar-brand mb-0 h1">BMI Calculator</span>
+    <span class="navbar-brand mb-0 h1"><a class="btn btn-light" href="/">BMI Calculator</a></span>
+    <a class="btn btn-light" href="/history">History</a>
   </nav>
   <main class="container mt-4">
     <form id="bmiForm" action="/bmicalculator" method="post">
@@ -47,14 +47,11 @@
 
       <button type="submit" class="btn btn-primary">Calculate BMI</button>
     </form>
-
-    <div id="result" class="mt-4"></div>
     
   </main>
   <footer class="text-center mt-4">
     <p>Created by Shirbayev Adilzhan from SE-2204 group</p>
   </footer>
-  <!-- Include Bootstrap JS and Popper.js -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
